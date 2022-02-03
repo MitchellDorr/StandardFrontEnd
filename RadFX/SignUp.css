@@ -1,0 +1,142 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/download.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 976px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 111px 755px 0 276px;
+}
+
+.u-section-1 .u-form-1 {
+  height: 201px;
+  margin: 15px 308px 0 262px;
+}
+
+.u-section-1 .u-form-group-1 {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-form-group-2 {
+  margin-left: 0;
+  margin-top: 30px;
+}
+
+.u-section-1 .u-text-2 {
+  text-align: center;
+  margin: 48px 659px 0 276px;
+}
+
+.u-section-1 .u-form-2 {
+  height: 403px;
+  margin: 27px 308px 60px 262px;
+}
+
+.u-section-1 .u-form-group-6 {
+  margin-left: 0;
+}
+
+.u-section-1 .u-form-group-7 {
+  margin-left: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 805px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 655px;
+    margin-left: 176px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 470px;
+    margin-right: 208px;
+    margin-left: 162px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 559px;
+    margin-left: 176px;
+  }
+
+  .u-section-1 .u-form-2 {
+    margin-right: 208px;
+    margin-left: 162px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 617px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 545px;
+    margin-left: 66px;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-right: 98px;
+    margin-left: 52px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 449px;
+    margin-left: 66px;
+  }
+
+  .u-section-1 .u-form-2 {
+    margin-right: 98px;
+    margin-left: 52px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 463px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 431px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-form-1 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 335px;
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-form-2 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 292px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 231px;
+  }
+
+  .u-section-1 .u-form-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 135px;
+  }
+}
