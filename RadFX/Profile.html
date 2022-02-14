@@ -89,22 +89,22 @@
         <div class="u-expanded-width u-tab-links-align-left u-tabs u-tabs-1">
           <ul class="u-border-2 u-border-palette-1-base u-spacing-10 u-tab-list u-unstyled" role="tablist">
             <li class="u-tab-item" role="presentation">
-              <a class="active u-active-palette-1-base u-button-style u-grey-10 u-tab-link u-text-active-white u-text-black u-tab-link-1" id="link-tab-0da5" href="#tab-0da5" role="tab" aria-controls="tab-0da5" aria-selected="true">Description</a>
+              <a class="active u-active-palette-1-base u-button-style u-grey-10 u-tab-link u-text-active-white u-text-black u-tab-link-1" id="link-tab-0da5" href="#tab-0da5" role="tab" aria-controls="tab-0da5" aria-selected="true">Pending Test Requests</a>
             </li>
             <li class="u-tab-item" role="presentation">
-              <a class="u-active-palette-1-base u-button-style u-grey-10 u-tab-link u-text-active-white u-text-black u-tab-link-2" id="link-tab-14b7" href="#tab-14b7" role="tab" aria-controls="tab-14b7" aria-selected="false">Specifications</a>
+              <a class="u-active-palette-1-base u-button-style u-grey-10 u-tab-link u-text-active-white u-text-black u-tab-link-2" id="link-tab-14b7" href="#tab-14b7" role="tab" aria-controls="tab-14b7" aria-selected="false">New Test Request</a>
             </li>
             <li class="u-tab-item" role="presentation">
-              <a class="u-active-palette-1-base u-button-style u-grey-10 u-tab-link u-text-active-white u-text-black u-tab-link-3" id="link-tab-2917" href="#tab-2917" role="tab" aria-controls="tab-2917" aria-selected="false">Reviews</a>
+              <a class="u-active-palette-1-base u-button-style u-grey-10 u-tab-link u-text-active-white u-text-black u-tab-link-3" id="link-tab-2917" href="#tab-2917" role="tab" aria-controls="tab-2917" aria-selected="false">Contact Facility</a>
             </li>
             <li class="u-tab-item u-tab-item-4" role="presentation">
-              <a class="u-active-palette-1-base u-button-style u-grey-10 u-tab-link u-text-active-white u-text-black u-tab-link-4" id="tab-93fc" href="#link-tab-93fc" role="tab" aria-controls="link-tab-93fc" aria-selected="false">Questions</a>
+              <a class="u-active-palette-1-base u-button-style u-grey-10 u-tab-link u-text-active-white u-text-black u-tab-link-4" id="tab-93fc" href="#link-tab-93fc" role="tab" aria-controls="link-tab-93fc" aria-selected="false">Edit Profile</a>
             </li>
           </ul>
           <div class="u-tab-content">
             <div class="u-container-style u-tab-active u-tab-pane u-white u-tab-pane-1" id="tab-0da5" role="tabpanel" aria-labelledby="link-tab-0da5">
               <div class="u-container-layout u-valign-top u-container-layout-1">
-                <h4 class="u-text u-text-default u-text-1">Basic Settings</h4>
+                <h4 class="u-text u-text-default u-text-1">Pending Test Requests</h4>
                 <div class="u-expanded-width u-table u-table-responsive u-table-1">
                   <table class="u-table-entity">
                     <colgroup>
@@ -115,31 +115,31 @@
                     </colgroup>
                     <tbody class="u-table-alt-grey-5 u-table-body">
                       <tr style="height: 51px;">
-                        <td class="u-table-cell">Column 1</td>
-                        <td class="u-table-cell">Column 2</td>
-                        <td class="u-table-cell">Column 3</td>
-                        <td class="u-table-cell">Column 4</td>
+                        <td class="u-table-cell">Purpose of Test</td> <!--Purpose of test from purpose table-->
+                        <td class="u-table-cell">Facility</td> <!--Test request FacilityID->Name in facility table -->
+                        <td class="u-table-cell">Date of Test </td> <!--Date from scheduled table-->
+                        <td class="u-table-cell">Retracted </td> <!--if the pending request was retracted-->
                       </tr>
                       <tr style="height: 51px;">
-                        <td class="u-table-cell">Row 1</td>
-                        <td class="u-table-cell">Description</td>
-                        <td class="u-table-cell">Description</td>
-                        <td class="u-table-cell">Description</td>
-                      </tr>
-                      <tr style="height: 51px;">
-                        <td class="u-table-cell">Row 2</td>
+                        <td class="u-table-cell">Row 1</td> <!--Test request Title get from DB-->
                         <td class="u-table-cell">Description</td>
                         <td class="u-table-cell">Description</td>
                         <td class="u-table-cell">Description</td>
                       </tr>
                       <tr style="height: 51px;">
-                        <td class="u-table-cell">Row 3</td>
+                        <td class="u-table-cell">Row 2</td> <!--Test request Title get from DB-->
+                        <td class="u-table-cell">Description</td>
+                        <td class="u-table-cell">Description</td>
+                        <td class="u-table-cell">Description</td>
+                      </tr>
+                      <tr style="height: 51px;">
+                        <td class="u-table-cell">Row 3</td> <!--Test request Title get from DB-->
                         <td class="u-table-cell">Description</td>
                         <td class="u-table-cell">Description</td>
                         <td class="u-table-cell">Description</td>
                       </tr>
                       <tr style="height: 52px;">
-                        <td class="u-table-cell">Row 4</td>
+                        <td class="u-table-cell">Row 4</td> <!--Test request Title get from DB-->
                         <td class="u-table-cell">Description</td>
                         <td class="u-table-cell">Description</td>
                         <td class="u-table-cell">Description</td>
@@ -149,27 +149,128 @@
                 </div>
               </div>
             </div>
+
             <div class="u-align-left u-container-style u-tab-pane u-white u-tab-pane-2" id="tab-14b7" role="tabpanel" aria-labelledby="link-tab-14b7">
               <div class="u-container-layout u-valign-top u-container-layout-2">
-                <p class="u-text u-text-2">Sample text. Click to select the text box. Click again or double click to start editing the text. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
-                  <br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&nbsp;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                </p>
+                <section> 
+                  <div class="u-clearfix u-sheet u-sheet-1">
+                    <div class="u-form u-form-1">
+                      <form action="test1.php" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;" redirect="true">
+                        <div class="u-form-group u-form-select u-form-group-1">
+                          <label for="select-81a6" class="u-label">Facility</label>
+                          <div class="u-form-select-wrapper">
+                            <select id="select-81a6" name="select" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
+                              <option value="Item 1">Item 1</option>
+                              <option value="Item 2">Item 2</option>
+                              <option value="Item 3">Item 3</option>
+                            </select>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+                          </div>
+                        </div>
+                        <div class="u-form-group u-form-select u-form-group-2">
+                          <label for="select-df75" class="u-label">Test</label>
+                          <div class="u-form-select-wrapper">
+                            <select id="select-df75" name="select-1" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white">
+                              <option value="Item 1">Item 1</option>
+                              <option value="Item 2">Item 2</option>
+                              <option value="Item 3">Item 3</option>
+                            </select>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" version="1" class="u-caret"><path fill="currentColor" d="M4 8L0 4h8z"></path></svg>
+                          </div>
+                        </div>
+                        <div class="u-form-date u-form-group u-form-group-3">
+                          <label for="date-0803" class="u-label">Date Requested</label>
+                          <input type="date" placeholder="MM/DD/YYYY" id="date-0803" name="date" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required="">
+                        </div>
+                        <div class="u-align-left u-form-group u-form-submit">
+                          <a href="#" class="u-btn u-btn-submit u-button-style">Submit</a>
+                          <input type="submit" value="submit" class="u-form-control-hidden">
+                        </div>            
+                      </form>
+                    </div>
+                  </div>
+                </section>
               </div>
             </div>
             <div class="u-container-style u-tab-pane u-white u-tab-pane-3" id="tab-2917" role="tabpanel" aria-labelledby="link-tab-2917">
-              <div class="u-container-layout u-container-layout-3">
-                <h4 class="u-text u-text-default u-text-3">Be The First To Review This Product!</h4>
-                <p class="u-text u-text-default u-text-4">Sample text. Click to select the text box. Click again or double click to start editing the text.</p>
-                <a href="" class="u-btn u-button-style u-btn-1">write product review</a>
+              <div class="u-container-layout u-container-layout-3"><!--HERE IS A BUTTON TO CONTACT A FACILTY (WHICH ONE?) -->
+                <h4 class="u-text u-text-default u-text-3">Facilities:</h4>
+                <p class="u-text u-text-default u-text-4">NASA Space Radiation Laboratory</p>
+                <a href="https://www.bnl.gov/contact-us/" class="u-btn u-button-style u-btn-1">Contact NASA</a>
+                <p class="u-text u-text-default u-text-4">Texas A&M Accelerator Laboratory</p>
+                <a href="https://engineering.tamu.edu/nuclear/contact.html" class="u-btn u-button-style u-btn-1">Contact Texas</a>
+                <p class="u-text u-text-default u-text-4">Lawrence Berkeley National Laboratory</p>
+                <a href="https://phonebook.lbl.gov/" class="u-btn u-button-style u-btn-1">Contact Lawrence</a>
               </div>
             </div>
             <div class="u-container-style u-tab-pane u-white u-tab-pane-4" id="link-tab-93fc" role="tabpanel" aria-labelledby="tab-93fc">
               <div class="u-container-layout u-container-layout-4"></div>
+             
+              <!--YOUR PROFILE-->
+              <div class="u-expanded-width u-table u-table-responsive u-table-1">
+                <h4 class="u-text u-text-default u-text-3">Your Profile: Full Name</h4>
+                <table class="u-table-entity">
+                  <colgroup>
+                    <col width="25%">
+                    <col width="25%">
+                    <col width="25%">
+                    <col width="25%">
+                  </colgroup>
+                  <tbody class="u-table-alt-grey-5 u-table-body">
+                    <tr style="height: 51px;">
+                      <td class="u-table-cell">Profile Picture:</td> 
+                      <td class="u-table-cell">Email:</td> 
+                      <td class="u-table-cell">Phone Number:</td> 
+                    </tr>
+                    <tr style="height: 51px;">
+                      <td class="u-table-cell"><img src="test.png" alt="test" width="150" height="150"></td> 
+                      <td class="u-table-cell">User@email.email</td>
+                      <td class="u-table-cell">(000)-000-0000</td>
+                    </tr>
+                   <tr style="height: 51px;">
+                      <td class="u-table-cell"><button type="button">
+                        <form action="/action_page.php"> 
+                          <input type="submit" value="Change Profile Picture">
+                        </form>
+                      </td> 
+                      <td class="u-table-cell"><button type="button">
+                        <form action="/action_page.php"> 
+                          <input type="text" placeholder="ex: New@email.com" id="newEmail" name="newEmail"><br><br>
+                          <input type="submit" value="Change Email">
+                        </form>
+                        </td>
+                        <td class="u-table-cell"><button type="button">
+                          <form action="/action_page.php"> 
+                            <input type="text" placeholder="ex: 1236540987" id="newPNum" name="newPNum"><br><br>
+                            <input type="submit" value="Change Phone Number">
+                          </form>
+                        </td>
+                    </tr>
+                    <tr><td>Refresh Page After Submitting to View Changes</td><td></tr><td></td><td></td></tr>
+                    <!-- 
+                    <tr style="height: 51px;">
+                      <td class="u-table-cell">Row 3</td> 
+                      <td class="u-table-cell">Description</td>
+                      <td class="u-table-cell">Description</td>
+                      <td class="u-table-cell">Description</td>
+                    </tr>
+                    <tr style="height: 52px;">
+                      <td class="u-table-cell">Row 4</td> 
+                      <td class="u-table-cell">Description</td>
+                      <td class="u-table-cell">Description</td>
+                      <td class="u-table-cell">Description</td>
+                    </tr> 
+                  -->
+                       
+                  </tbody>
+                </table>
+                
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!--
     <section class="u-align-center u-clearfix u-section-2" id="sec-6930">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1"></div>
     </section>
@@ -222,7 +323,7 @@
       </div>
     </section>
     
-    
+  -->
     
     
     
