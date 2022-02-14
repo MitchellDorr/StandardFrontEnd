@@ -115,31 +115,31 @@
                     </colgroup>
                     <tbody class="u-table-alt-grey-5 u-table-body">
                       <tr style="height: 51px;">
-                        <td class="u-table-cell">Purpose of Test</td> <!--Purpose of test from purpose table-->
-                        <td class="u-table-cell">Facility</td> <!--Test request FacilityID->Name in facility table -->
-                        <td class="u-table-cell">Date of Test </td> <!--Date from scheduled table-->
-                        <td class="u-table-cell">Retracted </td> <!--if the pending request was retracted-->
+                        <td class="u-table-cell"><strong><u>Purpose of Test</u></strong></td> <!--Purpose of test from purpose table-->
+                        <td class="u-table-cell"><strong><u>Facility</u></strong></td> <!--Test request FacilityID->Name in facility table -->
+                        <td class="u-table-cell"><strong><u>Date of Test</u></strong> </td> <!--Date from scheduled table-->
+                        <td class="u-table-cell"><strong><u>Retracted</u></strong> </td> <!--if the pending request was retracted-->
                       </tr>
                       <tr style="height: 51px;">
-                        <td class="u-table-cell">Row 1</td> <!--Test request Title get from DB-->
-                        <td class="u-table-cell">Description</td>
-                        <td class="u-table-cell">Description</td>
-                        <td class="u-table-cell">Description</td>
-                      </tr>
-                      <tr style="height: 51px;">
-                        <td class="u-table-cell">Row 2</td> <!--Test request Title get from DB-->
+                        <td class="u-table-cell">Row 1</td> <!--Purpose from DB-->
                         <td class="u-table-cell">Description</td>
                         <td class="u-table-cell">Description</td>
                         <td class="u-table-cell">Description</td>
                       </tr>
                       <tr style="height: 51px;">
-                        <td class="u-table-cell">Row 3</td> <!--Test request Title get from DB-->
+                        <td class="u-table-cell">Row 2</td> <!--Purpose from DB-->
+                        <td class="u-table-cell">Description</td>
+                        <td class="u-table-cell">Description</td>
+                        <td class="u-table-cell">Description</td>
+                      </tr>
+                      <tr style="height: 51px;">
+                        <td class="u-table-cell">Row 3</td> <!--Purpose from DB-->
                         <td class="u-table-cell">Description</td>
                         <td class="u-table-cell">Description</td>
                         <td class="u-table-cell">Description</td>
                       </tr>
                       <tr style="height: 52px;">
-                        <td class="u-table-cell">Row 4</td> <!--Test request Title get from DB-->
+                        <td class="u-table-cell">Row 4</td> <!--Purpose from DB-->
                         <td class="u-table-cell">Description</td>
                         <td class="u-table-cell">Description</td>
                         <td class="u-table-cell">Description</td>
@@ -155,7 +155,7 @@
                 <section> 
                   <div class="u-clearfix u-sheet u-sheet-1">
                     <div class="u-form u-form-1">
-                      <form action="test1.php" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;" redirect="true">
+                      <form action="test1.php" method="POST" class="u-clearfix u-form-custom-backend u-form-spacing-10 u-form-vertical u-inner-form" source="custom" name="form" style="padding: 10px;" redirect="true"><!--REQUEST PAGE: NEEDS TO BE MADE PROPER-->
                         <div class="u-form-group u-form-select u-form-group-1">
                           <label for="select-81a6" class="u-label">Facility</label>
                           <div class="u-form-select-wrapper">
@@ -193,7 +193,7 @@
               </div>
             </div>
             <div class="u-container-style u-tab-pane u-white u-tab-pane-3" id="tab-2917" role="tabpanel" aria-labelledby="link-tab-2917">
-              <div class="u-container-layout u-container-layout-3"><!--HERE IS A BUTTON TO CONTACT A FACILTY (WHICH ONE?) -->
+              <div class="u-container-layout u-container-layout-3"><!--HERE IS A BUTTON TO CONTACT A FACILTY (THREE FACILITIES)-->
                 <h4 class="u-text u-text-default u-text-3">Facilities:</h4>
                 <p class="u-text u-text-default u-text-4">NASA Space Radiation Laboratory</p>
                 <a href="https://www.bnl.gov/contact-us/" class="u-btn u-button-style u-btn-1">Contact NASA</a>
@@ -208,7 +208,7 @@
              
               <!--YOUR PROFILE-->
               <div class="u-expanded-width u-table u-table-responsive u-table-1">
-                <h4 class="u-text u-text-default u-text-3">Your Profile: Full Name</h4>
+                <h4 class="u-text u-text-default u-text-3"><strong>Your Profile:</strong> Full Name</h4><!--Full Name should be name taken from DB-->
                 <table class="u-table-entity">
                   <colgroup>
                     <col width="25%">
@@ -218,50 +218,37 @@
                   </colgroup>
                   <tbody class="u-table-alt-grey-5 u-table-body">
                     <tr style="height: 51px;">
-                      <td class="u-table-cell">Profile Picture:</td> 
-                      <td class="u-table-cell">Email:</td> 
-                      <td class="u-table-cell">Phone Number:</td> 
+                      <td class="u-table-cell"><strong><u>Profile Picture:</u></strong></td> 
+                      <td class="u-table-cell"><strong><u>Email:</u></strong></td> 
+                      <td class="u-table-cell"><strong><u>Phone Number:</u></strong></td> 
                     </tr>
-                    <tr style="height: 51px;">
+                    <tr style="height: 51px;"><!--These three below should be data pulled from the database-->
                       <td class="u-table-cell"><img src="test.png" alt="test" width="150" height="150"></td> 
                       <td class="u-table-cell">User@email.email</td>
                       <td class="u-table-cell">(000)-000-0000</td>
                     </tr>
                    <tr style="height: 51px;">
                       <td class="u-table-cell"><button type="button">
-                        <form action="/action_page.php"> 
+                        <form action="/action_page.php"> <!--should link to php with window to submit a new profile picture.-->
                           <input type="submit" value="Change Profile Picture">
                         </form>
                       </td> 
                       <td class="u-table-cell"><button type="button">
-                        <form action="/action_page.php"> 
+                        <form action="/action_page.php"> <!--should run a php that reaches and updates the database-->
                           <input type="text" placeholder="ex: New@email.com" id="newEmail" name="newEmail"><br><br>
                           <input type="submit" value="Change Email">
                         </form>
                         </td>
                         <td class="u-table-cell"><button type="button">
-                          <form action="/action_page.php"> 
+                          <form action="/action_page.php"> <!--should run a php that raches and updates the database-->
                             <input type="text" placeholder="ex: 1236540987" id="newPNum" name="newPNum"><br><br>
                             <input type="submit" value="Change Phone Number">
                           </form>
                         </td>
                     </tr>
                     <tr><td>Refresh Page After Submitting to View Changes</td><td></tr><td></td><td></td></tr>
-                    <!-- 
-                    <tr style="height: 51px;">
-                      <td class="u-table-cell">Row 3</td> 
-                      <td class="u-table-cell">Description</td>
-                      <td class="u-table-cell">Description</td>
-                      <td class="u-table-cell">Description</td>
-                    </tr>
-                    <tr style="height: 52px;">
-                      <td class="u-table-cell">Row 4</td> 
-                      <td class="u-table-cell">Description</td>
-                      <td class="u-table-cell">Description</td>
-                      <td class="u-table-cell">Description</td>
-                    </tr> 
-                  -->
-                       
+       
+                    
                   </tbody>
                 </table>
                 
